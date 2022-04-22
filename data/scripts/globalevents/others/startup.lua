@@ -127,17 +127,17 @@ function serverstartup.onStartup()
 		if lootRate ~= 100 then
 			SCHEDULE_LOOT_RATE = lootRate
 		end
-	
+
 		local expRate = EventsScheduler.getEventSExp()
 		if expRate ~= 100 then
 			SCHEDULE_EXP_RATE = expRate
 		end
-	
+
 		local skillRate = EventsScheduler.getEventSSkill()
 		if skillRate ~= 100 then
 			SCHEDULE_SKILL_RATE = skillRate
 		end
-	
+
 		local spawnRate = EventsScheduler.getSpawnMonsterSchedule()
 		if spawnRate ~= 100 then
 			SCHEDULE_SPAWN_RATE = spawnRate
